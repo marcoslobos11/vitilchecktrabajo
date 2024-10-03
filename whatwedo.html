@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Recursos</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <!-- style css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+    <!-- favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='images/logoico.png') }}" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.mCustomScrollbar.min.css') }}">
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout inner_page Coach_page">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="{{ url_for('static', filename='images/loading.gif') }}" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo"> <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/logo2.jpg') }}" alt="#"></a> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <div class="menu-area">
+                            <div class="limit-box">
+                                <nav class="main-menu">
+                                    <ul class="menu-area-main">
+                                        <li> <a href="{{ url_for('index') }}">Inicio</a> </li>
+                                        <li> <a href="{{ url_for('about_us') }}">Nosotros</a> </li>
+                                        <li> <a href="{{ url_for('meet') }}">Vitíligo</a> </li>
+                                        <li class="active"> <a href="{{ url_for('resources') }}"> Recursos</a> </li>
+                                        <li> <a href="{{ url_for('contact') }}">Contacto</a> </li>
+                                        <li class="mean-last"> <a href="#"><img src="{{ url_for('static', filename='images/top-icon.png') }}" alt="#" /></a> </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header inner -->
+    </header>
+
+    <!-- Coach -->
+    <div class="Coach-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="abouttitle">
+                        <h2>Recursos y preguntas frecuentes</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 style="text-align: center; font-size: 32px;">
+                    <span>
+                        <p style="color: #215dec; font-weight: bold; background: #E7EAEE; font-size: 29px"> ¿ El vitíligo es contagioso ?</p>
+                        <p style="color:white">....</p>
+                        <p style="text-align: center; font-size: 22px; color: black;">No, el vitíligo no es contagioso. No se transmite por contacto físico, ni por compartir objetos, ni de ninguna otra manera. Es una condición que afecta solo a la persona que la padece.</p>
+                    </span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 style="text-align: center; font-size: 32px;">
+                    <span>
+                        <p style="color: #215dec; font-weight: bold; background: #E7EAEE; font-size: 29px">¿ El vitíligo puede afectar a cualquier persona ?</p>
+                        <p style="color:white">....</p>
+                        <p style="text-align: center; font-size: 22px; color: black;">Sí, el vitíligo puede afectar a personas de cualquier edad, género o raza. Aunque es más visible en personas con piel oscura, puede presentarse en personas con cualquier tono de piel.</p>
+                    </span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 style="text-align: center; font-size: 32px;">
+                    <span>
+                        <p style="color: #215dec; font-weight: bold; background: #E7EAEE; font-size: 29px">¿ El vitíligo tiene cura ?</p>
+                        <p style="color:white">....</p>
+                        <p style="text-align: center; font-size: 22px; color: black;">Actualmente, no existe una cura definitiva para el vitíligo. Sin embargo, existen varios tratamientos que pueden ayudar a mejorar la apariencia de la piel y a detener o ralentizar la progresión de la pérdida de pigmentación.</p>
+                    </span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 style="text-align: center; font-size: 32px;">
+                    <span>
+                        <p style="color: #215dec; font-weight: bold; background: #E7EAEE; font-size: 29px">¿ El estrés puede empeorar el vitíligo ?</p>
+                        <p style="color:white">....</p>
+                        <p style="text-align: center; font-size: 22px; color: black">El estrés no causa vitíligo, pero en algunas personas puede desencadenar o empeorar la condición. Mantener una buena salud emocional puede ser útil para reducir los brotes.</p>
+                    </span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 style="text-align: center; font-size: 32px;">
+                    <span>
+                        <p style="color: #ff9900; font-weight: bold; background: #E7EAEE; font-size: 32px">Puede dar a cualquier persona.</p>
+                        <p style="color:white">....</p>
+                        <p style="text-align: center; font-size: 25px; color: black; font-weight: bold;">Famoso: Michael Jackson</p>
+                    </span>
+                </h1>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/OPqCzu7teEw?si=xCXLOr9NVUOHMLEJ&amp;controls=0" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                        encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 style="text-align: center; font-size: 32px;">
+                    <span>
+                        <p style="color: #ff9900; font-weight: bold; background: #E7EAEE; font-size: 32px">Puede dar a cualquier persona.</p>
+                        <p style="color:white">....</p>
+                        <p style="text-align: center; font-size: 25px; color: black; font-weight: bold;">Famosa: 
+                            Raquel Welch
+                        </p>
+                    </span>
+                </h1>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/OezN1TDF7CM?si=ql1XboTp-KLpB4CR&amp;controls=0" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                        encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="social">
+                            <ul>
+                                <li> <a href="#"><i class="fa fa-facebook"></i></a> </li>
+                                <li> <a href="#"><i class="fa fa-twitter"></i></a> </li>
+                                <li> <a href="#"><i class="fa fa-linkedin"></i></a> </li>
+                                <li> <a href="#"><i class="fa fa-instagram"></i></a> </li>
+                                <li> <a href="#"><i class="fa fa-pinterest"></i></a> </li>
+                            </ul>
+                        </div>
+                        <p>© 2024 Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript files -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+
+</html>

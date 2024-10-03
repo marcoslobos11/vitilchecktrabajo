@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Nosotros</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <!-- style css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+    <!-- fevicon -->
+    <link rel="icon" href="{{ url_for('static', filename='images/logoico.png') }}" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.mCustomScrollbar.min.css') }}">
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<!-- body -->
+<body class="main-layout inner_page about_page">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="{{ url_for('static', filename='images/loading.gif') }}" alt="#" /></div>
+    </div>
+    <!-- end loader --> 
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo"> <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/logo2.jpg') }}" alt="#"></a> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <div class="menu-area">
+                            <div class="limit-box">
+                                <nav class="main-menu">
+                                    <ul class="menu-area-main">
+                                        <li> <a href="{{ url_for('index') }}">Inicio</a> </li>
+                                        <li class="active"> <a href="{{ url_for('about_us') }}">Nosotros</a> </li>
+                                        <li> <a href="{{ url_for('meet') }}"> Vitíligo</a> </li>
+                                        <li> <a href="{{ url_for('resources') }}"> Recursos</a> </li>
+                                        <li> <a href="{{ url_for('contact') }}">Contacto</a> </li>
+                                        <li class="mean-last"> <a href="#"><img src="{{ url_for('static', filename='images/top-icon.png') }}" alt="#" /></a> </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header inner -->
+    </header>
+    <!-- end header -->
+    
+    <div class="about-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="abouttitle">
+                        <h2>Nosotros</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="aboutimg">
+                        <br><br><br>
+                        <p>Somos <strong style=" font-weight: bold;">VitilCheck</strong>, un equipo de estudiantes apasionados de la <strong style=" font-weight: bold;">Facultad de Ingeniería de Sistemas</strong>, unidos por el propósito de utilizar la tecnología para mejorar la vida de las personas. Creemos que la <strong style=" font-weight: bold;">innovación tecnológica</strong> tiene el poder de cambiar el mundo, y por ello hemos desarrollado un sitio web que emplea redes neuronales para ayudar a la detección temprana del <strong style=" font-weight: bold;">vitíligo</strong>. Nos motiva contribuir al bienestar de las personas, ofreciendo herramientas que pueden impactar de manera positiva en su salud y autoestima.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="aboutimg">
+                        <figure><img src="{{ url_for('static', filename='images/f1.jpeg') }}" alt="img"/></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="abouttitle">
+                        <h2> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/></svg> Nuestros desafíos</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="aboutimg">
+                        <figure><img src="{{ url_for('static', filename='images/metas1.png') }}" alt="img"/></figure>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="aboutimg">
+                        <br><br>
+                        <p>En <strong style=" font-weight: bold;" >VitilCheck</strong>, hemos enfrentado desafíos tanto técnicos como <strong style=" font-weight: bold;">humanos</strong> en el desarrollo de una plataforma que sea accesible y precisa para la <strong>detección del vitíligo</strong>. Nuestros mayores retos incluyen el perfeccionamiento de algoritmos de machine learning para asegurar una detección confiable y la creación de una interfaz amigable para los usuarios. Además, hemos trabajado para <strong style=" font-weight: bold;">concienciar sobre el vitíligo</strong>, una condición que puede pasar desapercibida pero que afecta profundamente a quienes la padecen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="abouttitle">
+                        <h2>Nuestra historia</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="aboutimg">
+                        <br>
+                        <p><strong style=" font-weight: bold;">VitilCheck</strong> surgió de un grupo de estudiantes apasionados por la <strong>tecnología y la salud</strong>. Nuestra experiencia personal con el vitíligo nos motivó a desarrollar una herramienta que pueda ayudar a otros en su camino hacia la aceptación y el cuidado de su piel. Trabajamos arduamente para crear un sistema que no solo sea efectivo, sino que también ofrezca una experiencia positiva y alentadora para quienes lo utilizan.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="aboutimg">
+                        <figure><img src="{{ url_for('static', filename='images/foto2.png') }}" alt="img"/></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <h4>Contacto</h4>
+                        <ul class="footer_links">
+                            <li><a href="{{ url_for('contact') }}">Contáctenos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <h4>Información</h4>
+                        <ul class="footer_links">
+                            <li><a href="{{ url_for('about_us') }}">Nosotros</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <h4>Redes Sociales</h4>
+                        <ul class="footer_links">
+                            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- Javascript files-->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+
+</html>
